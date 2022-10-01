@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Toko | Home</title>
+    <link rel="shortcut icon" href="asset/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="asset/logo.png" alt="" width="28" height="28" class="d-inline-block me-1" />
+          R9_Store
+        </a>
+        <button class="navbar-toggler my-3 my-lg-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto my-3 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="produk.html">Barang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="keranjang.html">Keranjang</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Banner -->
+    <div class="container-fluid banner d-flex align-items-center">
+      <div class="container">
+        <h1 class="text-light text-center display-5 mb-3">Welcome To R9_Store</h1>
+        <h2 class="text-light text-center mb-3">Selamat Belanja</h2>
+        <div class="col-6 offset-3">
+        <div class="input-group input-group-lg">
+          <select class="form-control" id="inputGroupSelect04" aria-label="Example select with button addon">
+            <option selected>Pilih</option>
+            <option value="1">Baju</option>
+            <option value="2">Celana</option>
+            <option value="2">Jaket</option>
+          </select>
+          <button class="btn btn-lg btn-dark" type="button"><i class="bi bi-search text-light"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Banner -->
+
+    <!-- Caraousel -->
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="asset/img1.jpg" class="d-block w-100 img-fluid" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="asset/img2.jpg" class="d-block w-100 img-fluid" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="asset/img3.jpg" class="d-block w-100 img-fluid" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="asset/img4.jpg" class="d-block w-100 img-fluid" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="asset/img5.jpg" class="d-block w-100 img-fluid" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="asset/img6.jpg" class="d-block w-100 img-fluid" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Akhir Carousel -->
+
+    <!-- Kategori Produk -->
+    <div class="container mt-5 mb-5">
+      <div class="judul-kategori bg-dark">
+        <h4 class="text-center text-light">KATEGORI BARANG</h4>
+      </div>
+      <div class="row text-center row-kategori mt-3">
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="Kategori">
+            <a href=""><img src="asset/baju.png" class="img-kategori mt-3" /></a>
+            <p class="mt-1">Baju</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="Kategori">
+            <a href=""><img src="asset/tas.png" class="img-kategori mt-3" /></a>
+            <p class="mt-1">Tas</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href=""><img src="asset/celana.png" class="img-kategori mt-3" /></a>
+            <p class="mt-1">Celana</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href=""><img src="asset/sepatu.png" class="img-kategori mt-3" /></a>
+            <p class="mt-1">Sepatu</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href=""><img src="asset/jamtangan.png" class="img-kategori mt-3" /></a>
+            <p class="mt-1">Jam Tangan</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href=""><img src="asset/laptop.png" class="img-kategori mt-3" /></a>
+            <p class="mt-1">Laptop</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href=""><img src="asset/otomotif.png" class="img-kategori mt-3" /></a>
+            <p class="mt-1">Otomotif</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href=""><img src="asset/kecantikan.png" class="img-kategori mt-3" /></a>
+            <p class="mt-1">Kecantikan</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href=""><img src="asset/elektronik.png" class="img-kategori mt-3" /></a>
+            <p class="mt-1">Elektronik</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href=""><img src="asset/kesehatan.png" class="img-kategori mt-3" /></a>
+            <p class="mt-1">Kesehatan</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href=""><img src="asset/fotografi.png" class="img-kategori mt-3" /></a>
+            <p class="mt-1">Fotografi</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+          <div class="menu-kategori">
+            <a href=""><img src="asset/hp.png" class="img-kategori mt-3" /></a>
+            <p class="mt-1">HandPhone</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Service -->
+<div class="container-fluid py-5 service">
+  <div class="container">
+<h2 class="text-center text-light mb-5 ">Kami Melayani</h2>
+<div class="row">
+  <div class="col-lg-6 icon-kategori">
+    <div class="d-flex justify-content-center">
+      <div class="icon-service text-light d-flex align-items-center justify-content-center"><i class="bi bi-bicycle display-6"></i></div>
+    </div>
+    <div class="mt-3 text-light text-center">
+      <h5>COD</h5>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt ex dicta nihil perferendis nesciunt nobis.</p>
+    </div>
+  </div>
+  <div class="col-lg-6 icon-kategori">
+    <div class="d-flex justify-content-center">
+      <div class="icon-service text-light d-flex align-items-center justify-content-center"><i class="bi bi-cash-stack display-6"></i></div>
+    </div>
+    <div class="mt-3 text-light text-center">
+      <h5>Transfer</h5>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt ex dicta nihil perferendis nesciunt nobis.</p>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+
+<!-- Review  -->
+<div class="container-fluid py-5 review">
+  <div class="container mt-5 ">
+    <h2 class="text-center mb-5">Apa Kata Customer</h2>
+    <div class="row" data-masonry='{"percentPosition": true }'>
+      <div class="col-lg-4 mb-3">
+        <div class="card text-light p-3 kartu">
+          <figure>
+            <blockquote class="blockquote">
+              <p>Pelayanannya Cepat</p>
+            </blockquote>
+            <figcaption class="blockquote-footer text-light">
+             Putra Riyadi
+            </figcaption>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea doloremque rerum impedit dicta non obcaecati neque accusantium temporibus dolores molestiae?</p>
+          </figure>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+        <div class="card text-light p-3 kartu">
+          <figure>
+            <blockquote class="blockquote">
+              <p>Transfer Lancar</p>
+            </blockquote>
+            <figcaption class="blockquote-footer text-light">
+            Putri Nilam
+            </figcaption>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae corrupti quo velit, laborum a praesentium! Labore aliquid nam assumenda a.</p>
+          </figure>
+        </div>
+      </div>
+       <div class="col-lg-4 mb-3">
+        <div class="card text-light p-3 kartu">
+          <figure>
+            <blockquote class="blockquote">
+              <p>Adminnya Ramah-Ramah</p>
+            </blockquote>
+            <figcaption class="blockquote-footer text-light">
+             Ilham Saputra
+            </figcaption>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eveniet, nulla recusandae atque iusto maiores animi architecto labore iste rerum ducimus eos nesciunt quibusdam sunt fugiat sit ipsum. Amet, sunt beatae. Minima, molestiae? Recusandae quos quidem accusantium quam vitae non cupiditate, tempore atque incidunt natus?</p>
+          </figure>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+        <div class="card text-light p-3 kartu">
+          <figure>
+            <blockquote class="blockquote">
+              <p>Pilihan Barang Banyak</p>
+            </blockquote>
+            <figcaption class="blockquote-footer text-light">
+             Rizal Wahyudi
+            </figcaption>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem nulla nihil soluta saepe. Atque tempora, laboriosam perferendis ipsum, cumque obcaecati animi veniam voluptate inventore blanditiis iure officiis eligendi impedit!?</p>
+          </figure>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+        <div class="card text-light p-3 kartu">
+          <figure>
+            <blockquote class="blockquote">
+              <p>Aplikasi Ringan</p>
+            </blockquote>
+            <figcaption class="blockquote-footer text-light">
+             Bagus Utomo
+            </figcaption>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </figure>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+        <div class="card text-light p-3 kartu">
+          <figure>
+            <blockquote class="blockquote">
+              <p>Pembayaran Tidak Rumit </p>
+            </blockquote>
+            <figcaption class="blockquote-footer text-light">
+             Tomi Rizal
+            </figcaption>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </figure>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark py-5">
+  <div class="container">
+    <div class="row text-center kaki">
+      <div class="col">
+  <img src="asset/logo.png" class="pe-1">
+<span class="text-light">Copyright 2022 | With <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/radhitaunullah/" class="text-white fw-bold text-decoration-none">Radhit Aunullah</a></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+  </body>
+</html>
