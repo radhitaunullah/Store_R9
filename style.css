@@ -8,7 +8,7 @@ body {
 /* Home */
 .banner {
   height: 80vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(asset/bg2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(asset/background.jpg);
   background-size: cover;
   background-position: center;
   margin: 0;
@@ -47,7 +47,7 @@ body {
 }
 
 .service {
-  background-color: #212529;
+  background-color: #41372c;
   min-height: 50vh;
 }
 
@@ -82,7 +82,7 @@ body {
 /* Produk */
 .banner-produk {
   height: 70vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(asset/bg2.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(asset/background.jpg);
   background-size: cover;
   background-position: center;
   margin: 0;
